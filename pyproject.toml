@@ -1,0 +1,10 @@
+[project]
+name = "logical-evaluator"
+version = "1.0.3"
+
+[project.scripts]
+le = "logical_evaluator.main:main"
+
+[build-system]
+requires = ["setuptools","wheel"]
+build-backend = "setuptools.build_meta"
